@@ -151,7 +151,7 @@ spec:
       containers:
       - name: kube-flannel
        #image: flannelcni/flannel:v0.20.2 for ppc64le and mips64le (dockerhub limitations may apply)
-        image: jingwu1993/mirrored-flannelcni-flannel:v0.20.2
+        image: wujing1993/mirrored-flannelcni-flannel:v0.20.2
         command:
         - /opt/bin/flanneld
         args:
